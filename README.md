@@ -25,4 +25,11 @@
   - 2 -> b
   - 3 -> c
 
+## Delimiters
 __/ is not the only delimiter. Use # or _ or anything convinient__
+
+## Chain and pipe expressions
+`sed -e 'first-expression' -e 'second-expression' ...`
+`cat some-file-input | sed 'some-expression'`
+
+
