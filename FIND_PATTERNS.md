@@ -1,6 +1,6 @@
 # Find patterns in the input
 
-- __Find words and group them inside parenthesis__  
+__Find words and group them inside parenthesis__  
 
 ````
 $ cat input.txt | sed 's/[A-Za-z]*/(&)/g'  
