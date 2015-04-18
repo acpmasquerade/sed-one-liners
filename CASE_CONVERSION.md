@@ -1,5 +1,5 @@
-# Some case conversion examples using sed
+# Case Conversion
 
-## Convert all characters to lowercase
+### Convert all characters to lowercase
 	sed 's/\(.*\)/\L\1/g' some-file.txt
 
