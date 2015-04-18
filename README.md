@@ -25,3 +25,4 @@
   - 2 -> b
   - 3 -> c
 
+__/ is not the only delimiter. Use # or _ or anything convinient__
