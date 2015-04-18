@@ -32,4 +32,5 @@ __/ is not the only delimiter. Use # or _ or anything convinient__
 `sed -e 'first-expression' -e 'second-expression' ...`
 `cat some-file-input | sed 'some-expression'`
 
-
+#REFERENCES
+http://www.grymoire.com/Unix/Sed.html#uh-1
