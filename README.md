@@ -4,4 +4,24 @@
 - `sed 's/<match-pattern>/<replace-pattern>/g' <some-filename.txt>`
 - to replace infile `sed -i 's/<....`
 
+## Switches
+- /g (global)
+- /p (print)
+- /I (ignore case)
+- /w some-filename (write to some-filename)
+
+## Substitute command 's/...'
+- /../../	  Delimiter
+- match-pattern	  Regular Expression Pattern Search Pattern
+- replacement-pattern	  Replacement string
+
+## Transliterate command 'y/...'
+- y/source/dest/
+- Transliterate the characters in the pattern space which appear in source to the corresponding character in dest.
+- one to one mapping
+- Example : `'y/0123/_abc/'` replaces the stream as 
+  - 0 -> _
+  - 1 -> a
+  - 2 -> b
+  - 3 -> c
 
