@@ -10,6 +10,6 @@
 	`sed 's/\(.\)\(.*\)/\U\1\L\2/g' some-file.txt`
 	
 - __Capitalize first letter of each word__  
- 	`sed 's/\b\(.\)/\u\1/g' some-file.txt`
+ 	`sed 's/\b\(.\)/\U\1/g' some-file.txt`
 
 
