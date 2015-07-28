@@ -7,4 +7,5 @@
  	`sed 's/\(.*\)/\U\1/g' some-file.txt`
 
 - __Capitalize first word, making everything lowercase__
+	`sed 's/\(.\)\(.*\)/\U\1\L\2/g' some-file.txt`
 	
