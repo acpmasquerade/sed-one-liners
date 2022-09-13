@@ -32,7 +32,7 @@ __/ is not the only delimiter. Use # or _ or anything convinient__
 `sed -e 'first-expression' -e 'second-expression' ...`
 `cat some-file-input | sed 'some-expression'`
 
-#REFERENCES
+# REFERENCES
 http://www.grymoire.com/Unix/Sed.html#uh-1
 
 -------------------
@@ -40,10 +40,13 @@ http://www.grymoire.com/Unix/Sed.html#uh-1
 -------------------
 
 - Convert all characters to lowercase
-`sed 's/\(.*\)/\L\1/g' some-file.txt`
+```sed 's/\(.*\)/\L\1/g' some-file.txt```
+
 - Convert all characters to uppercase
-`sed 's/\(.*\)/\U\1/g' some-file.txt`
+```sed 's/\(.*\)/\U\1/g' some-file.txt```
+
 - Capitalize first word, making everything lowercase
-`sed 's/\(.\)\(.*\)/\U\1\L\2/g' some-file.txt`
+```sed 's/\(.\)\(.*\)/\U\1\L\2/g' some-file.txt```
+
 - Capitalize first letter of each word
-`sed 's/\b\(.\)/\U\1/g' some-file.txt`
+```sed 's/\b\(.\)/\U\1/g' some-file.txt```
