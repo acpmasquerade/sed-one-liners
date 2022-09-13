@@ -35,7 +35,7 @@ __/ is not the only delimiter. Use # or _ or anything convinient__
 # REFERENCES
 http://www.grymoire.com/Unix/Sed.html#uh-1
 
--------------------
+
 # Commands
 
 ## Case Conversion
